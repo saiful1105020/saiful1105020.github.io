@@ -29,7 +29,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Md. Saiful Islam</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/main-pi.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-0" src="img/main-pic.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,14 +66,18 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h2 class="mb-0">Mostofa Rafid
-          <span class="text-primary">Uddin</span>
+        <h2 class="mb-0">Md. Saiful Islam
+          <!--<span class="text-primary">Islam</span>-->
         </h2>
-        <div class="subheading mb-5">Researcher | Educator | Tech Enthusiast
+        <div class="subheading mb-5">Lecturer, <a href="https://cse.buet.ac.bd">Department of CSE, BUET </a>
         </div>
 	
-        <p class="lead mb-5">I am currently working as a lecturer in <a href="http://www.ewubd.edu" target="_blank">Department of CSE, East West University, Dhaka.</a> Prior to this, I received my B.Sc.Engg. in Computer Science and Engineering from <a href="https://www.buet.ac.bd/" target="_blank">Bangladesh University of Engineering and Technology(BUET).</a> I completed my undergrad thesis under the supervision of <a href="https://scholar.google.com/citations?user=h2vHz3wAAAAJ&hl=en" target="_blank">Dr. Md. Shamsuzzoha Bayzid</a> and am still in active research with him. My research interest includes bioinformatics, machine learning and broadly the intersection of the two. I love to apply knowledge of computer science in solving basic biological problems. Also I like to work on health informatics and precision medicine that may facilitate our healthy living.
+        <p class="lead mb-5">I am serving as a lecturer at the Department of CSE, BUET. I have completed my B.Sc. degree in 2017 and now pursuing my master's degree from the same department. My supervisor is Dr. <a href = "https://cse.buet.ac.bd/faculty_list/detail/eunus"> Mohammed Eunus Ali </a>, with whom I am working on <b>community search in social networks</b>. I am also working on a government funded project titled <b>"Continuous Monitoring and Emergency Warning System for Cardiovascular Patients"</b> in collaboration with <a href="https://www.birdembd.org/"> BIRDEM </a>. My research interest lies in the areas of applied machine learning, natural language processing, and human-computer interaction. I am interested in analyzing user behavior in multimodal interactive systems, personalization of contents, searching for particular behavior patterns (e.g., depression, violence, threat, mood detection), addressing privacy and security, and finding communities of specific interest in social networks. I am also interested in developing end-to-end solutions for underprivileged people.
 	      </p>
+		  
+		<?php
+		die()
+		?>
 		<p class="lead mb-5">Apart from academic activities, I like to travel-meet different types of people and taste different types of foods. In my free times, I like to make outings with my friends and family.</p>
         <div class="social-icons">
 	  <a href="mailto:rafid.uddin95@gmail.com">
