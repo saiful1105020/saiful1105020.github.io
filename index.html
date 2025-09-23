@@ -38,7 +38,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+          <a class="nav-link js-scroll-trigger" href="#about">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#research">Research</a>
@@ -67,23 +67,113 @@
 
   <div class="container-fluid p-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about" aria-labelledby="about-heading">
+      <div class="w-100">
+        <h2 id="about-heading" class="mb-1 fw-bold">Md Saiful Islam</h2>
+
+        <p class="text-muted mb-3">
+          <span class="me-2">Computer Science PhD Candidate</span>
+          <a href="https://www.cs.rochester.edu/" class="text-decoration-none" target="_blank" rel="noopener">University of Rochester</a>
+        </p>
+
+        <p class="text-muted mb-3">
+          <span class="me-2">Google PhD Fellow</span>
+          <a href="https://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2023" class="text-decoration-none" target="_blank" rel="noopener">Health Research, 2023–2026</a>
+        </p>
+
+        <p class="text-muted mb-4">
+          Assistant Professor (on study leave), 
+          <a href="https://cse.buet.ac.bd" class="text-decoration-none" target="_blank" rel="noopener">Department of CSE, BUET</a>
+        </p>
+
+        <p class="lead mb-4" style="text-align:justify">
+          I build machine learning and large language models to advance accessible healthcare—focusing on digital biomarker extraction, video-based remote assessment, and LLM-driven clinical triage. See publications on 
+          <a href="https://scholar.google.com/citations?user=LmRLizgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+        </p>
+
+        <p class="mb-5" style="text-align:justify">
+          Beyond research and teaching, I enjoy reading, traveling, and playing table tennis.
+        </p>
+      
+        <!-- Quick actions -->
+        <div class="d-flex flex-wrap gap-2 mb-4" role="group" aria-label="Quick links">
+          <a class="btn btn-outline-secondary me-3" href="mailto:mislam6@ur.rochester.edu" aria-label="Email Md Saiful Islam">
+            <i class="fas fa-envelope me-2" aria-hidden="true"></i>Email
+          </a>
+          <a class="btn btn-outline-info me-3" href="files/CV.pdf" target="_blank" rel="noopener">
+            <i class="fas fa-file-alt me-2" aria-hidden="true"></i>CV
+          </a>
+          <a class="btn btn-outline-secondary me-3" href="https://github.com/saiful1105020" target="_blank" rel="noopener" aria-label="GitHub profile">
+            <i class="fab fa-github me-2" aria-hidden="true"></i>GitHub
+          </a>
+          <a class="btn btn-outline-info me-3" href="https://www.linkedin.com/in/saifulislam-cse-buet/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+            <i class="fab fa-linkedin me-2" aria-hidden="true"></i>LinkedIn
+          </a>
+          <a class="btn btn-outline-secondary me-3" href="https://scholar.google.com/citations?user=LmRLizgAAAAJ&hl=en" target="_blank" rel="noopener">
+            <i class="fas fa-graduation-cap me-2" aria-hidden="true"></i>Google Scholar
+          </a>
+        </div>
+
+        <!-- Compact research focus chips -->
+        <ul class="list-inline text-muted mb-0">
+          <li class="list-inline-item badge bg-light text-dark fw-normal">Digital biomarkers</li>
+          <li class="list-inline-item badge bg-light text-dark fw-normal">Remote assessment</li>
+          <li class="list-inline-item badge bg-light text-dark fw-normal">AI assisted clinical triage</li>
+          <li class="list-inline-item badge bg-light text-dark fw-normal">Multimodal ML</li>
+          <li class="list-inline-item badge bg-light text-dark fw-normal">HCI</li>
+        </ul>
+
+        <!-- Latest News -->
+        <div class="mt-5" aria-labelledby="news-heading">
+          <div class="d-flex align-items-center mb-2">
+            <h3 id="news-heading" class="mb-0 me-2">Latest News</h3>
+            <span id="news-updated" class="text-muted small"></span>
+          </div>
+
+        <div class="card shadow-sm">
+          <div class="card-body p-0">
+            <ul id="news-list"
+              class="list-group list-group-flush"
+              style="max-height:260px; overflow-y:auto; -webkit-overflow-scrolling:touch;"
+              aria-live="polite"
+              aria-busy="true"
+              tabindex="0">
+              <!-- Fallback items (shown if JSON fails to load) -->
+              <li class="list-group-item d-flex">
+                <div class="me-3"><i class="far fa-newspaper" aria-hidden="true"></i></div>
+                <div>
+                  <div class="fw-semibold"> Best paper nomination (AI in Healthcare) </div>
+                  <div class="text-muted small">Sep 2025 — Our paper "Beyond Accuracy: Enhancing Parkinson's Diagnosis with Uncertainty Quantification of Machine Learning Models" was nominated for the best paper award in the International Conference on AI in Healthcare.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+  </div>
+  <style>
+    #news-list a { text-decoration: none; }
+    #news-list a:hover { text-decoration: underline; }
+    #news-list .list-group-item { padding: 0.85rem 1rem; }
+  </style>
+
+</section>
+
+<!--
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h2 class="mb-0">Md Saiful Islam
-          <!--<span class="text-primary">Islam</span>-->
         </h2>
         <div class="subheading mb-1">PhD Candidate, <a href="https://www.cs.rochester.edu/">Department of Computer Science, University of Rochester </a>
         </div>
-	<div class="subheading mb-1">Google PhD Fellow, <a href="https://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2023">Health Research (2023)</a>
+	<div class="subheading mb-1">Google PhD Fellow, <a href="https://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2023">Health Research (2023 - 2026)</a>
         </div>
-		<!--
-		<div class="subheading mb-5">Assistant Professor <a href="https://cse.buet.ac.bd">Department of CSE, BUET </a>
+	<div class="subheading mb-5">Assistant Professor <a href="https://cse.buet.ac.bd">Department of CSE, BUET </a>
         </div>
-		-->
 		
-		<p align="justify" class="lead mb-5"> I am a fourth-year PhD student at the University of Rochester Computer Science department. My research interest lies in developing data-efficient techniques for modeling medical video data and exploring the potential of multimodal foundation models to capture the subtleties of human communication and movement. My PhD thesis focuses on Parkinson's disease as a critical health use case. You can find the list of publications in my <a href="https://scholar.google.com/citations?user=LmRLizgAAAAJ&hl=en">google scholar profile</a>. </p>
+		<p align="justify" class="lead mb-5"> I am a Computer Science PhD candidate at the University of Rochester. I develop machine learning and large language models to advance accessible healthcare through digital biomarker extraction, video-based remote assessment, and LLM-driven clinical triage. You can find the list of publications in my <a href="https://scholar.google.com/citations?user=LmRLizgAAAAJ&hl=en">google scholar profile</a>. </p>
 		
-        <p align="justify" class="lead mb-5">Previously, I served as an Assistant Professor at the Department of CSE, BUET. I have completed my B.Sc. degree in 2017 and M.Sc. degree in 2020 from BUET. Apart from my academic activities, I love reading, travelling, and playing table tennis. I am a big fan of <font color="red">Liverpool Football Club</font>. Also, I am highly interested in philosophy and human behavior.</p>
+        <p align="justify" class="lead mb-5">I am also an Assistant Professor (on study leave) at the Department of CSE, BUET. I have completed my B.Sc. degree in 2017 and M.Sc. degree in 2020 from BUET. Apart from my academic activities, I love reading, travelling, and playing table tennis. </p>
         <div class="social-icons">
 		<a href="mailto:mislam6@ur.rochester.edu">
             <i class="fas fa-envelope"></i>
@@ -92,11 +182,15 @@
         <a href="https://github.com/saiful1105020" target="_blank">
             <i class="fab fa-github"></i>
         </a>
+
+        <a href="https://www.linkedin.com/in/saifulislam-cse-buet/" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
         </div>
       </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-0"> -->
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="research">
       <div class="w-100">
@@ -458,6 +552,51 @@ technical consultant in this project.</p>
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <!-- Custom scripts for loading news -->
+  <script>
+    (async function loadNews() {
+      const list = document.getElementById('news-list');
+      const updated = document.getElementById('news-updated');
+      if (!list) return;
+
+      try {
+        const res = await fetch('assets/news.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('No news.json available');
+        const payload = await res.json();
+        const items = Array.isArray(payload?.items) ? payload.items : [];
+
+        if (!items.length) throw new Error('Empty items');
+
+        // Clear fallback
+        list.innerHTML = '';
+
+        // Render items
+        items.forEach(({ title, date, link, icon, detail }) => {
+          const li = document.createElement('li');
+          li.className = 'list-group-item d-flex';
+          li.innerHTML = `
+            <div class="me-3">${icon ? `<i class="${icon}" aria-hidden="true"></i>` : `<i class="far fa-dot-circle" aria-hidden="true"></i>`}</div>
+            <div>
+              <div class="fw-semibold">
+                ${link ? `<a href="${link}" target="_blank" rel="noopener">${title}</a>` : title}
+              </div>
+              <div class="text-muted small">${date ? `${date} — ` : ''}${detail || ''}</div>
+            </div>
+          `;
+          list.appendChild(li);
+        });
+
+        // Updated badge
+        const now = new Date();
+        updated.textContent = `(Updated ${now.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })})`;
+      } catch (e) {
+        // Keep fallback; optionally log e
+      } finally {
+        list.setAttribute('aria-busy', 'false');
+      }
+    })();
+  </script>
 
 </body>
 
