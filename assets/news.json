@@ -12,21 +12,21 @@
       "date": "June 2025",
       "detail": "My joint-first authored work is now live in NEJM AI. In this work, we investigated analyzing home-recorded smile videos for detecting Parkinson's disease.",
       "link": "https://ai.nejm.org/stoken/default+domain/4BYAEMU2FQXBQE2RGYI8/full?redirectUri=doi/full/10.1056/AIoa2400950",
-      "icon": "far fa-rocket"
+      "icon": "fas fa-rocket"
     },
     {
       "title": "Paper published in npj Parkinson's disease",
       "date": "June 2025",
       "detail": "One of the works I supervised is now published in npj Parkinson's disease. Here we investigated a simple pangram-utterance recording for Parkinson's disease screening.",
       "link": "https://www.nature.com/articles/s41531-025-00956-7",
-      "icon": "far fa-rocket"
+      "icon": "fas fa-rocket"
     },
     {
         "title": "Paper published in CHI 2025",
         "date": "April 2025",
         "detail": "My first-authored work from 2024 summer internship is now published in CHI 2025.",
         "link": "https://dl.acm.org/doi/full/10.1145/3706598.3714029",
-        "icon": "far fa-rocket"
+        "icon": "fas fa-rocket"
     }
   ]
 }
